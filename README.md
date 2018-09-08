@@ -1,4 +1,6 @@
-# Introduction
+# This is the gitbook code repo
+
+## Introduction
 
 We will look at how to use the Angular CLI to build, scaffold and deploy your angular applications to production.
 
