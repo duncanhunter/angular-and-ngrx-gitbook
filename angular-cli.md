@@ -1,9 +1,3 @@
----
-description: >-
-  In this section we will create and Angular application and walk through the
-  different parts
----
-
 # 1. Create an application
 
 ## 1. Create a new Angular CLI app

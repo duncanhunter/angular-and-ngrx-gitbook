@@ -1,7 +1,3 @@
----
-description: These are the links to a runnable demo of each section
----
-
 # Stackblitz links
 
 ## Stackblitz links

@@ -25,10 +25,10 @@ By the end of this workshop, you will have built a working Angular and NgRx appl
 * Building and deploying you angular applications
 * Unit and e2e testing
 
-**Prerequisites**   
+**Prerequisites**  
 This workshop is for developers with at least a basic understanding of JavaScript and HTML. You do not need angular v2+ experience to attend this course, but it is recommended to have done at least the beginner's tutorial on [angular.io](https://angular.io/) or equivalent. This course briefly covers the fundamentals of angular components, services, routing, and modules but moves onto talking about using them with ngrx for the majority of the workshop.
 
-**Computer Setup**   
+**Computer Setup**  
 You need to bring your laptop with the below software installed to follow this workshop:
 
 * Visual Studio Code
