@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Intorduction](intorduction.md)
+* [Introduction](intorduction.md)
 * [Setup](setup.md)
-* [Angular CLI](angular-cli.md)
+* [1. Create an application](angular-cli.md)
+* [2. Create a home component](2..md)
 
