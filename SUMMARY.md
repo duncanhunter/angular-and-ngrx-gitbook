@@ -16,4 +16,5 @@
 * [10. Test EventListComponent](10.-test-eventlistcomponent.md)
 * [11. Create EventService](11.-create-eventservice.md)
 * [12. Test EventService](12.-test-eventservice.md)
+* [13. Add simple NgRx spinner](add-simple-ngrx-spinner.md)
 
