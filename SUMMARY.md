@@ -19,4 +19,5 @@
 * [13. Add simple NgRx spinner](add-simple-ngrx-spinner.md)
 * [14. Test reducer](14.-test-reducer.md)
 * [15. Strongly type our store](15.-strongly-type-our-store.md)
+* [16. Use Action creators in reducer test](16.-use-action-creators-in-reducer-test.md)
 
