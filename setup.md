@@ -44,7 +44,7 @@ npm install -g @angular/cli
 
 {% embed data="{\"url\":\"https://code.visualstudio.com/\",\"type\":\"link\",\"title\":\"Visual Studio Code - Code Editing. Redefined\",\"description\":\"Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://code.visualstudio.com/favicon.ico\",\"width\":128,\"height\":128,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://code.visualstudio.com/opengraphimg/opengraph-home.png\",\"width\":1223,\"height\":630,\"aspectRatio\":0.5151267375306623}}" %}
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%286%29.png)
 
 ## 5. Get **VSCode**  Extensions
 
@@ -61,11 +61,11 @@ npm install -g @angular/cli
 
 {% embed data="{\"url\":\"https://marketplace.visualstudio.com/items?itemName=eg2.tslint\",\"type\":\"link\",\"title\":\"TSLint - Visual Studio Marketplace\",\"description\":\"Extension for Visual Studio Code - TSLint for Visual Studio Code\",\"icon\":{\"type\":\"icon\",\"url\":\"https://marketplace.visualstudio.com/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://eg2.gallerycdn.vsassets.io/extensions/eg2/tslint/1.0.30/1527489705111/Microsoft.VisualStudio.Services.Icons.Default\",\"width\":120,\"height\":120,\"aspectRatio\":1},\"caption\":\"TSLint extention\"}" %}
 
-![WallabyJS extension](.gitbook/assets/image%20%287%29.png)
+![WallabyJS extension](.gitbook/assets/image%20%288%29.png)
 
 ## 6. Optionally turn on **Visual Studio Code  auto save**
 
-![VSCode auto save feature](.gitbook/assets/image%20%288%29.png)
+![VSCode auto save feature](.gitbook/assets/image%20%289%29.png)
 
 ## 7. Update VSCode user settings to use single quotes and warnings for lint rules
 
