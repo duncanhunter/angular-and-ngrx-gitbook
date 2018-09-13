@@ -21,5 +21,6 @@
 * [15. Strongly type our store](15.-strongly-type-our-store.md)
 * [16. Update reducer tests](16.-use-action-creators-in-reducer-test.md)
 * [17. Store dev tools](17.-store-dev-tools.md)
-* [18. Add feature state](18.-add-feature-state.md)
+* [18. Create selectors](18.-create-selectors.md)
+* [19. Create feature state](18.-add-feature-state.md)
 
