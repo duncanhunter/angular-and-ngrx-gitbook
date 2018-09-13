@@ -24,4 +24,5 @@
 * [18. Create selectors](18.-create-selectors.md)
 * [19. Create feature state](18.-add-feature-state.md)
 * [20. Create effect](20.-create-effect.md)
+* [21. Test effect](21.-test-effect.md)
 
