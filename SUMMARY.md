@@ -17,4 +17,6 @@
 * [11. Create EventService](11.-create-eventservice.md)
 * [12. Test EventService](12.-test-eventservice.md)
 * [13. Add simple NgRx spinner](add-simple-ngrx-spinner.md)
+* [14. Test reducer](14.-test-reducer.md)
+* [15. Strongly type our store](15.-strongly-type-our-store.md)
 
