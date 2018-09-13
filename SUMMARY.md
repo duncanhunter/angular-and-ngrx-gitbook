@@ -26,4 +26,5 @@
 * [20. Create effect](20.-create-effect.md)
 * [21. Test effect](21.-test-effect.md)
 * [22. Use Entity Adapter](22.-use-entity-adapter.md)
+* [23. Add guests logic](23.-add-guests-logic.md)
 
