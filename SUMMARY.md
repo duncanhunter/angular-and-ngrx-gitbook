@@ -23,4 +23,5 @@
 * [17. Store dev tools](17.-store-dev-tools.md)
 * [18. Create selectors](18.-create-selectors.md)
 * [19. Create feature state](18.-add-feature-state.md)
+* [20. Create effect](20.-create-effect.md)
 
