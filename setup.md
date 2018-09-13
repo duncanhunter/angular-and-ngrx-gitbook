@@ -65,7 +65,7 @@ npm install -g @angular/cli
 
 ## 6. Optionally turn on **Visual Studio Code  auto save**
 
-![VSCode auto save feature](.gitbook/assets/image%20%289%29.png)
+![VSCode auto save feature](.gitbook/assets/image%20%2810%29.png)
 
 ## 7. Update VSCode user settings to use single quotes and warnings for lint rules
 
