@@ -26,5 +26,5 @@
 * [22. Use Entity Adapter](22.-use-entity-adapter.md)
 * [23. Add attendee logic](23.-add-guests-logic.md)
 * [24. Router store](24.-router-store.md)
-* [25. Fix tests](25.-fix-tests.md)
+* [25. Fix EventComponent tests](25.-fix-event-component-tests.md)
 
