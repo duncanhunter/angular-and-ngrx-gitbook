@@ -1,9 +1,3 @@
----
-description: >-
-  In this section we will add a simple NgRx implementation without types,
-  effects, action creators or tests. The aim is to learn the pattern.
----
-
 # 13. Add simple NgRx spinner
 
 ## 1. npm i NgRx Store library
