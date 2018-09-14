@@ -1,5 +1,7 @@
 # 13. Add simple NgRx spinner
 
+## [Link to section slides](https://docs.google.com/presentation/d/1Y7Tf7kjO4Li0ihhkVgRjn4szFJPAkbMvilfrDCbrjq8/edit#slide=id.g2fa7fd70ec_0_1818)
+
 ## 1. npm i NgRx Store library
 
 * npm install @ngrx/store
