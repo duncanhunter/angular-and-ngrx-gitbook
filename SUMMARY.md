@@ -22,7 +22,7 @@
 * [18. Create selectors](18.-create-selectors.md)
 * [19. Create feature state](18.-create-feature-state.md)
 * [20. Create effect](20.-create-effect.md)
-* [21. Test effect](21.-test-effect.md)
+* [21. Test an effect](21.-test-effect.md)
 * [22. Use Entity Adapter](22.-use-entity-adapter.md)
 * [23. Add attendee logic](23.-add-guests-logic.md)
 * [24. Router store](24.-router-store.md)
