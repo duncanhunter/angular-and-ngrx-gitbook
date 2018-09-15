@@ -9,7 +9,7 @@
 * [5.Create AddAttendeeComponent](5.create-addattendeecomponent.md)
 * [6. Test AddAttendeeComponent](6.-test-addattendeecomponent.md)
 * [7. Listen to child component events](7.-listen-to-child-component-events.md)
-* [8. Add test for event emitter](8.-add-test-for-event-emitter.md)
+* [8. Add test for the event emitter](8.-add-test-for-event-emitter.md)
 * [9. Create EventListComponent](9.-add-eventlistcomponent.md)
 * [10. Test EventListComponent](10.-test-eventlistcomponent.md)
 * [11. Create EventService](11.-create-eventservice.md)
