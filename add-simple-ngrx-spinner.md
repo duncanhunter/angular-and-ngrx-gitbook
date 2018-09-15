@@ -147,7 +147,7 @@ export class EventComponent implements OnInit {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![Image: Showing &apos;spinner&apos; state registered in AppModule and used in the component.](.gitbook/assets/image%20%285%29.png)
+![Image: Showing &apos;spinner&apos; state registered in AppModule and used in the component.](.gitbook/assets/image%20%286%29.png)
 
 ## StackBlitz Link
 
