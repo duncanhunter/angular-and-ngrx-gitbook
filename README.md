@@ -41,8 +41,8 @@ You need to bring your laptop with the below software installed to follow this w
 
 * Visual Studio Code
 * A command line Git client
-* NodeJS v8+
-* Angular CLI \(At latest\)
+* Node.js \(version 8 or later\)
+* Angular CLI \(latest version\)
 
 If you get stuck, we can help you on the day, but it helps to have this already installed.
 
