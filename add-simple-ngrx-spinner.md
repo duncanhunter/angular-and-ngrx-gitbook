@@ -19,9 +19,9 @@ npm i @ngrx/store
 
 ## 2.  Add a reducer
 
-Reducers are at the core of redux the pattern NgRx follows. We will have a reducer for each "slice" of state that we will combine into a single "store" that is literally just a JavaScript object. 
+Reducers are at the core of the redux pattern NgRx follows. We will have a reducer for each "slice" of state that we will combine into a single "store" that is literally just a JavaScript object. 
 
-This is a very simple reducer but it follows the basic principles of a reducer. Reducers are just pure functions that take in state and a action \(the instructions to change state\) and return the new state for this slice of state.
+This is a very simple reducer, but it follows the basic principles of a reducer. Reducers are just pure functions that take in state and a action \(the instructions to change state\) and return the new state for this slice of state.
 
 * Create a state folder with a spinner folder inside of it.
 * Create a spinner.reducer.ts file and add the below spinner state logic.
@@ -54,7 +54,7 @@ export function reducer(state = { isOn: false }, action) {
 
 ## 3. Register NgRx in app module
 
-Here we register the reducer we made but there is normally many in a bigger app and name this slice of state "spinner". You will see this piece of state in the dev tools under a property called "spinner", when we add the dev tools in the coming sections.
+Here we register the reducer we made and name this slice of state "spinner". You will see this piece of state in the dev tools under a property called "spinner", when we add the dev tools in the coming sections.
 
 * Add NgRx to AppModule
 
