@@ -1,7 +1,3 @@
----
-description: In this section we will introduce the course and section slides.
----
-
 # Introduction
 
 ## [Slides for this section](%20https://docs.google.com/presentation/d/1Y7Tf7kjO4Li0ihhkVgRjn4szFJPAkbMvilfrDCbrjq8)

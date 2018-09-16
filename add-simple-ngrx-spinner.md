@@ -1,10 +1,3 @@
----
-description: >-
-  In this section we will introduce redux and start converting our demo
-  application to an NgRx powered application. We will skip strong typing and
-  action creators till the next section.
----
-
 # 13. Add simple NgRx spinner
 
 ## [Link to section slides](https://docs.google.com/presentation/d/1Y7Tf7kjO4Li0ihhkVgRjn4szFJPAkbMvilfrDCbrjq8/edit#slide=id.g2fa7fd70ec_0_1818)

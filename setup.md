@@ -1,9 +1,3 @@
----
-description: >-
-  In this section we will configure our machines to get the most from this
-  workshop.
----
-
 # Setup
 
 Dependency checklist:
