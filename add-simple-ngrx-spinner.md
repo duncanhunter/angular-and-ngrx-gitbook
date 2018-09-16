@@ -1,7 +1,8 @@
 ---
 description: >-
   In this section we will introduce redux and start converting our demo
-  application to an NgRx powered application.
+  application to an NgRx powered application. We will skip strong typing and
+  action creators till the next section.
 ---
 
 # 13. Add simple NgRx spinner
@@ -101,6 +102,50 @@ As we move towards fully implementing NgRx you will see our components become ev
 
 * Inject Store into the EventComponent.
 * Select the `spinner$` state.
+
+{% code-tabs %}
+{% code-tabs-item title="src/app/event/container/event/event.component.ts" %}
+```typescript
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Store, select } from '@ngrx/store';
+
+import { Attendee } from '../../../models';
+import { EventService } from '../../services/event.service';
+
+@Component({
+  selector: 'app-event',
+  templateUrl: './event.component.html',
+  styleUrls: ['./event.component.scss']
+})
+export class EventComponent implements OnInit {
+  spinner$: Observable<boolean>;
+  attendees$: Observable<Attendee[]>;
+
+  constructor(private store: Store<any>, private eventService: EventService) {}
+
+  ngOnInit() {
+    this.getAttendees();
+    this.spinner$ = this.store.pipe(select(state => state.spinner.isOn));
+  }
+
+  getAttendees() {
+    this.attendees$ = this.eventService.getAttendees();
+  }
+
+  addAttendee(attendee: Attendee) {
+    this.eventService.addAttendee(attendee).subscribe(() => {
+      this.getAttendees();
+    });
+  }
+}
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+## 5. Dispatch an action when adding new attendees
+
 * Dispatch a `startSpinner` and `stopSpinner` action when loading and receiving data from the fake backend.
 
 {% code-tabs %}
@@ -146,7 +191,7 @@ export class EventComponent implements OnInit {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## 5. Update the EventComponent to show a basic loading indicator
+## 6. Update the EventComponent to show a basic loading indicator
 
 * Add a loading div with an ngIf.
 * Add a `*ngIf` to the `EventListComponent`.
