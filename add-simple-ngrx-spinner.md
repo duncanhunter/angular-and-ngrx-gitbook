@@ -18,7 +18,12 @@ npm i @ngrx/store
 
 ## 2.  Add a reducer
 
-* Add a reducer with spinner state.
+Reducers are at the core of redux the pattern NgRx follows. We will have a reducer for each "slice" of state that we will combine into a single "store" that is literally just a JavaScript object. 
+
+This is a very simple reducer but it follows the basic principles of a reducer. Reducers are just pure functions that take in state and a action \(the instructions to change state\) and return the new state for this slice of state.
+
+* Create a state folder with a spinner folder inside of it.
+* Create a spinner.reducer.ts file and add the below spinner state logic.
 
 {% code-tabs %}
 {% code-tabs-item title="src/app/state/spinner/spinner.reducer.ts" %}
@@ -47,6 +52,8 @@ export function reducer(state = { isOn: false }, action) {
 {% endcode-tabs %}
 
 ## 3. Register NgRx in app module
+
+Here we register the reducer we made but there is normally many in a bigger app and name this slice of state "spinner". You will see this piece of state in the dev tools under a property called "spinner", when we add the dev tools in the coming sections.
 
 * Add NgRx to AppModule
 
@@ -90,9 +97,11 @@ export class AppModule {}
 
 ## 4. Inject store into the EventComponent
 
+As we move towards fully implementing NgRx you will see our components become even simpler with just a bunch of subscriptions to the store and actions being dispatched and work normally done in components now delegated to our NgRx system.
+
 * Inject Store into the EventComponent.
-* Select the spinner$ state.
-* Dispatch a startSpinner and stopSpinner action when loading and receiving data from the fake backend.
+* Select the `spinner$` state.
+* Dispatch a `startSpinner` and `stopSpinner` action when loading and receiving data from the fake backend.
 
 {% code-tabs %}
 {% code-tabs-item title="src/app/event/container/event/event.component.ts" %}
@@ -140,7 +149,7 @@ export class EventComponent implements OnInit {
 ## 5. Update the EventComponent to show a basic loading indicator
 
 * Add a loading div with an ngIf.
-* Add a ngIf to the EventListComponent.
+* Add a `*ngIf` to the `EventListComponent`.
 
 {% code-tabs %}
 {% code-tabs-item title="src/app/event/containers/event.component.ts" %}
