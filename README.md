@@ -46,3 +46,13 @@ You need to bring your laptop with the below software installed to follow this w
 
 If you get stuck, we can help you on the day, but it helps to have this already installed.
 
+## Repository for the Demo App
+
+{% embed data="{\"url\":\"https://github.com/duncanhunter/angular-and-ngrx-demo-app\",\"type\":\"link\",\"title\":\"duncanhunter/angular-and-ngrx-demo-app\",\"description\":\"Contribute to duncanhunter/angular-and-ngrx-demo-app development by creating an account on GitHub.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/2058227?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+
+## Repository for the gitbook
+
+{% embed data="{\"url\":\"https://github.com/duncanhunter/angular-and-ngrx-gitbook\",\"type\":\"link\",\"title\":\"duncanhunter/angular-and-ngrx-gitbook\",\"description\":\"Angular and NgRx Workshop Gitbook Repo. Contribute to duncanhunter/angular-and-ngrx-gitbook development by creating an account on GitHub.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/2058227?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+
+## 
+
