@@ -197,7 +197,7 @@ export class EventComponent implements OnInit {
 * Add a `*ngIf` to the `EventListComponent`.
 
 {% code-tabs %}
-{% code-tabs-item title="src/app/event/containers/event.component.html" %}
+{% code-tabs-item title="src/app/event/containers/event.component.html"  %}
 ```markup
 <app-add-attendee (addAttendee)="addAttendee($event)"></app-add-attendee>
 <app-event-list *ngIf="!(spinner$ | async)" [attendees]="attendees$ | async"></app-event-list>
